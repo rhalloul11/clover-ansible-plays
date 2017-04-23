@@ -1,0 +1,5 @@
+---
+
+docker_repo_url: https://download.docker.com/linux/centos/docker-ce.repo
+production_system: false
+docker_version: 
