@@ -21,7 +21,7 @@
    
 - name: Install docker in production
   yum:
-    name: "{{docker_version}}"
+    name: docker-ce-"{{docker_version}}"
     state: present
   when: production_system 
     
