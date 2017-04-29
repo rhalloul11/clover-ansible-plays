@@ -7,4 +7,4 @@
 
   roles:
     - { role: docker_ubuntu, when: "ansible_distribution == 'Ubuntu'"}
-    - { role: docker_centos, when: "ansible_distribution == 'CentOS'"}
+    - { role: docker_centos, when: "ansible_distribution == 'CentOS' or ansible_distribution == 'RedHat'"}
